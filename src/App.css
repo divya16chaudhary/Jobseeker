@@ -84,7 +84,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background:#010e18;
+  background:#5f87a7;
   padding: 20px 20px;
 }
 .authPage .container .header {
@@ -121,7 +121,7 @@ p {
 }
 .authPage .container form .inputTag div input,
 .authPage .container form .inputTag div select {
-  background: #21212178;
+  background: #d1adad78;
   padding: 8px;
   border: none;
   width: 100%;
@@ -134,7 +134,7 @@ p {
 .authPage .container form .inputTag div svg {
   width: 10%;
   font-size: 1.5rem;
-  background: #2d5649;
+  background:#17332a;
   height: 100%;
   padding: 8px;
   color: #fff;
@@ -150,6 +150,7 @@ p {
   font-size: 1.2rem;
   border-radius: 7px;
 }
+
 .authPage .container form a {
   padding: 12px;
   text-align: center;
@@ -161,12 +162,20 @@ p {
   text-decoration: none;
   border-radius: 7px;
 }
+.resistration:hover{
+  background-color:#2d5649;
+ 
+}
+.authPage .container form a:hover{
+  color: #fff;
+}
 .authPage .banner {
   flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
+  background-color: #334c61;
 }
 .authPage .banner img {
   width: 100%;
@@ -241,6 +250,7 @@ p {
   display: flex;
   flex-direction: column;
   padding: 75px 0 50px 0;
+  background-color: #a6beecf4;
 }
 .heroSection .container,
 .heroSection .details {
@@ -252,6 +262,7 @@ p {
   display: flex;
   height: 450px;
   margin-bottom: 1.75rem;
+  
 }
 .heroSection .container .title,
 .heroSection .container .image {
@@ -285,7 +296,7 @@ p {
   display: flex;
   gap: 20px;
   align-items: center;
-  background: #8aaada;
+  background: #304566;
   width: 220px;
   padding: 10px 20px;
   border-radius: 30%;
@@ -309,9 +320,9 @@ p {
 }
 .heroSection .details .card:hover {
   transition: all 0.3s;
-  box-shadow: 2px 10px 10px -1px rgba(0, 0, 0, 0.17);
-  -webkit-box-shadow: 2px 10px 10px -1px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: 2px 10px 10px -1px rgba(0, 0, 0, 0.17);
+  box-shadow: 2px 10px 10px -1px rgba(8, 7, 7, 0.17);
+  -webkit-box-shadow: 2px 10px 10px -1px rgba(16, 15, 15, 0.17);
+  -moz-box-shadow: 2px 10px 10px -1px rgba(10, 9, 9, 0.17);
 }
 @media (max-width: 1520px) {
   .heroSection .container,
@@ -325,6 +336,7 @@ p {
     flex-direction: column-reverse;
     position: relative;
     min-height: 600px;
+    
   }
   .heroSection .container .title {
     z-index: 1;
@@ -367,7 +379,7 @@ p {
   }
 }
 .howitworks {
-  background: #f1f3f6;
+  background:  #a6beecf4;
 }
 .howitworks .container {
   max-width: 1500px;
@@ -384,8 +396,27 @@ p {
   justify-content: space-between;
   gap: 25px;
 }
+/* jgjgjhvm */
+
+
+
+.card{
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+ 
+ 
+}
+
+.card:hover {
+  transform: scale(1.05);
+ 
+}
+
+
+/* yagajjghfgjfjkgh */
 .howitworks .container .banner .card {
-  background: #fff;
+  background: #d5e4fb;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -439,6 +470,7 @@ p {
   margin: 0 auto;
   padding: 50px 0;
   gap: 35px;
+  background-color: #a6beecf4;
 }
 .categories .banner {
   display: flex;
@@ -451,10 +483,11 @@ p {
   width: 320px;
   background: red;
   padding: 20px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 12px;
-  background: #f1f3f6;
+  background: #2c6a65;
 }
 .categories .banner .card:hover {
   transition: all 0.3s;
@@ -501,7 +534,7 @@ p {
 }
 
 .companies {
-  background: #f1f3f6;
+  background:  #a6beecf4;
   padding: 50px 0;
 }
 .companies .container {
@@ -523,7 +556,7 @@ p {
   width: 340px;
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background:#798cac;
   padding: 20px;
   gap: 15px;
 }
@@ -542,7 +575,7 @@ p {
   padding: 10px;
   font-size: 24px;
   color: #2d5649;
-  background: rgb(233, 249, 255);
+  background:#c5dbd4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -557,7 +590,7 @@ p {
 }
 .companies .container .banner .card button {
   color: #2d5649;
-  background: rgb(233, 249, 255);
+  background: rgb(162, 187, 197);
   font-weight: bold;
   font-size: 20px;
   border: none;
@@ -586,7 +619,7 @@ p {
   }
 }
 .jobs {
-  background: #f1f3f6;
+  background: #a6beecf4;
   min-height: 100vh;
   padding: 50px 20px;
 }
@@ -608,11 +641,12 @@ p {
   padding: 30px 0;
 }
 .jobs .container .banner .card {
-  background: #fff;
+  background: #4d6184;
   text-decoration: none;
   width: 320px;
   height: 220px;
   padding: 20px 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -663,7 +697,7 @@ p {
 }
 
 .jobDetail {
-  background: #f1f3f6;
+  background: #d1dcec;
   padding: 50px 20px;
 }
 .jobDetail .container {
@@ -870,7 +904,7 @@ p {
 }
 
 .job_post {
-  background: #f1f3f6;
+  background:#d1dcec;
   padding: 50px 20px;
   min-height: 870px;
   display: flex;
@@ -973,7 +1007,7 @@ p {
   }
 }
 .myJobs {
-  background: #f1f3f6;
+  background: #d1dcec;
   padding: 50px 20px;
   min-height: 870px;
 }

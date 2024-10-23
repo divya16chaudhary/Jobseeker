@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://jobhub-n45u.onrender.com/api/v1/user/login",
+        "http://localhost:4000/api/v1/user/login",
         { email, password, role },
         {
           headers: {
@@ -46,7 +46,7 @@ const Login = () => {
       <section className="authPage">
         <div className="container">
           <div className="header">
-            <img src="/JobZeelogo.png" alt="logo" />
+            <img src="app.logomakr.com/3ofhNd" alt="logo" />
             <h3>Login to your account</h3>
           </div>
           <form>
@@ -66,7 +66,7 @@ const Login = () => {
               <div>
                 <input
                   type="email"
-                  placeholder="zk@gmail.com"
+                  placeholder="abc@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -88,7 +88,7 @@ const Login = () => {
             <button type="submit" onClick={handleLogin}>
               Login
             </button>
-            <Link to={"/register"}>Register Now</Link>
+            <Link to={"/register"} className="resistration">Register Now</Link>
           </form>
         </div>
         <div className="banner">
